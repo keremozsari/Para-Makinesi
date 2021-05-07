@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description"
+    content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+  <title>Para Makinesi</title>
+
+  <!--Style Css-->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/media.css">
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!--Font Awesome-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+</head>
+
+<body>
+  <!-- topbar -->
+  <div class="topbar">
+    <a id="show-sidebar" class="btn btn-sm" href="#">
+      <i class="fas fa-bars fa-2x text-white"></i>
+    </a>
+    <div class="logo d-flex justify-content-center">
+      <a class="navbar-brand" href="#">
+        <img src="assets/img/paramakines-logo.png" class="d-inline-block align-top" alt="">
+      </a>
+    </div>
+  </div>
+  <!-- page-wrapper -->
+  <div class="page-wrapper chiller-theme container">
+    <div class="homepage">
+      <!--Fare boxes-->
+      <div class="fare-boxes d-flex flex-row bd-highlight mb-3 text-center">
+        <div class="p-2 bd-highlight box m-2">
+          <h6>Net Kar</h6>
+          <span>$</span> <span class="count">171.12</span>
+        </div>
+        <div class="p-2 bd-highlight box m-2">
+          <h6>Ciro</h6>
+          <span>$</span> <span class="count">389.97</span>
+        </div>
+        <div class="p-2 bd-highlight box m-2">
+          <h6>Adet</h6>
+          <span class="count">5</span>
+        </div>
+      </div>
+
+      <hr class="w-100">
+
+      <!--Number Counter-->
+      <div class="d-flex justify-content-center mb-3">
+        <div id="shiva" class="text-success">
+          <i class="fas fa-check"></i>
+          <h6>Kazanılan</h6>
+          <span>$</span> <span class="count">320.53</span>
+        </div>
+        <div id="shiva" class="text-warning">
+          <i class="fas fa-hourglass-half"></i>
+          <h6>Bekleyen</h6>
+          <span>$</span> <span class="count">185.90</span>
+        </div>
+        <div id="shiva" class="text-danger">
+          <i class="fas fa-donate"></i>
+          <h6>Harcanan</h6>
+          <span>$</span> <span class="count">250.55</span>
+        </div>
+        <div id="shiva" class="text-primary">
+          <i class="fas fa-hand-holding-usd"></i>
+          <h6>Kalan</h6>
+          <span>$</span> <span class="count">375.50</span>
+        </div>
+      </div>
+
+      <hr class="w-100">
+
+      <!--Chart-->
+      <select class="times" name="times">
+        <option>Haftalık</option>
+        <option>Aylık</option>
+        <option>Yıllık</option>
+      </select>
+      <div id="container" class="myChart">
+        <canvas id="myChart"></canvas>
+
+      </div>
+
+      <!-- Sold Product History -->
+      <section class="sold-product-history">
+        <div id="minus" class="minus">
+          <i class="fas fa-minus fa-2x"></i>
+        </div>
+        <div id="content">
+          <div class="content">
+            <div class="list">
+              <div class="product-image">
+                <img src="assets/img/12_.jpg" alt="">
+              </div>
+              <div class="product-description">
+                <h6>Binoculars for Adults</h6>
+              </div>
+              <div class="product-price">
+                <span>55.99 $</span>
+              </div>
+            </div>
+            <div class="list">
+              <div class="product-image">
+                <img src="assets/img/iphone12.jfif" alt="">
+              </div>
+              <div class="product-description">
+                <h6>Logitech G602</h6>
+              </div>
+              <div class="product-price">
+                <span>129.00 $</span>
+              </div>
+            </div>
+            <div class="list">
+              <div class="product-image">
+                <img src="assets/img/13.jpg" alt="">
+              </div>
+              <div class="product-description">
+                <h6>Women's Sweetshirt</h6>
+              </div>
+              <div class="product-price">
+                <span>60.00 $</span>
+              </div>
+            </div>
+            <div class="list">
+              <div class="product-image">
+                <img src="assets/img/iphone12.jfif" alt="">
+              </div>
+              <div class="product-description">
+                <h6>İphone 12 Pro Max</h6>
+              </div>
+              <div class="product-price">
+                <span>1200.00 $</span>
+              </div>
+            </div>
+            <div class="list">
+              <div class="product-image">
+                <img src="assets/img/14.jpg" alt="">
+              </div>
+              <div class="product-description">
+                <h6>Wireless Laser Printer</h6>
+              </div>
+              <div class="product-price">
+                <span>145.99 $</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!--  sidebar-wrapper  -->
+    <nav id="sidebar" class="sidebar-wrapper">
+      <!-- sidebar-content  -->
+      <div class="sidebar-content">
+        <div class="sidebar-brand">
+          <div id="close-sidebar">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <!-- sidebar-menu  -->
+        <div class="sidebar-menu">
+          <ul>
+            <li class="sidebar-dropdown">
+              <a href="#">
+                <i class="fa fa-user"></i>
+                <span>Hesabım</span>
+              </a>
+            </li>
+            <li class="sidebar-dropdown wallet">
+              <a href="#">
+                <i class="fas fa-wallet"></i>
+                <span>Cüzdan</span>
+              </a>
+              <div class="sidebar-submenu">
+                <ul>
+                  <li>
+                    <a href="#">Para Çekme</a>
+                  </li>
+                  <li>
+                    <a href="#">Para Yatırma</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="sidebar-dropdown report">
+              <a href="#">
+                <i class="fa fa-chart-line"></i>
+                <span>Rapor</span>
+              </a>
+              <div class="sidebar-submenu">
+                <ul>
+                  <li>
+                    <a href="#">Son 1 Hafta</a>
+                  </li>
+                  <li>
+                    <a href="#">Son 1 Ay</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="sidebar-dropdown">
+              <a href="#">
+                <i class="fa fa-chart-line"></i>
+                <span>Canlı Destek</span>
+              </a>
+            </li>
+            <li class="sidebar-dropdown">
+              <a href="#">
+                <i class="fa fa-globe"></i>
+                <span>Geri Bildirim</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- END sidebar-menu  -->
+      </div>
+      <!-- END sidebar-content  -->
+      <div class="sidebar-footer">
+        <a class="sign-out" href="#">
+          <i class="fa fa-power-off fa-2x text-danger"></i>
+        </a>
+      </div>
+    </nav>
+    <!-- END sidebar-wrapper  -->
+
+  </div>
+  <!-- END page-wrapper -->
+
+  <!--Maintenance-->
+  <article id="maintenance">
+    <h1>Oops!Şimdilik sadece mobildeyiz.</h1>
+    <div>
+        <p>Dilersen Google developer ile mobil görüntüsüne ulaşabilirsin </p>
+    </div>
+</article>
+
+  <!--Bootstrap-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+  <!--Canvas JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.0/chart.min.js"></script>
+
+  <!--Script Js-->
+  <script src="assets/js/script.js"></script>
+
+</body>
+
+</html>

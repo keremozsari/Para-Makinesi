@@ -1,0 +1,33 @@
+Banking and Finance Mobile App mobile app ui design minimal mobile ux ui design mobile apps mobile ui mobileapp mobileappdesign app interface ui uiux ux    
+
+ Yatırılan Para = 1
+ Günlük Satış Adeti = 1.
+ Günlük Ciro = 1.
+ Günlük Net Kar = 1.
+ müşteri kazandığı paranın ne kadarının hemen çekebileceğini farklı renkte ne kadarının henüz ok lenmediğini görebilmeli. = 1.
+
+ Rapor Görseli (Grafik) seçmeli son 7 son 1 ay son 1 sene gibi = 1.
+Yatırımımdan geriye kalan miktar  (Grafik)
+Yatırımımdan Harcanan para (Grafik)
+
+Bir sonraki ödeme alma tarihi = sol menü top
+ Rapor: Son 1 hafta, 1 ay vs. = Sol menü
+ Canlı Destek // Sol menü
+ Hesabım // Sol menü
+ Geri bildirim / Feedback // sol menü
+ Para Yatırma / Çekme (Havale, Kredi) = sol menü (alternatif olarak cüzdan yada balans gibi başlıklar altında para çekme ve yatırma işlemleri yapılabilir)
+
+
+
+
+ Z Raporu (Kategori, ) - alttan açılı menü
+
+
+EN SON ARAŞTIRILACAKLAR:
+
+1-sidemenu için drag olayı
+
+
+DEĞİŞTİRİLECEK:
+ 1- Sidebardaki en alttaki menü kaldırılacak, çıkış butonu kalacak ve ikon değişecek.
+2- Anasayfada sağ üst köşeye bildirimler butonu gelecek(güzel olmadı)

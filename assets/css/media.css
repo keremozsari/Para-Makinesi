@@ -1,0 +1,71 @@
+@media screen and (min-width:320px) and (max-width:374px) {
+    html {
+        font-size: 15px;
+    }
+
+    .fare-boxes {
+        margin-top: 28%;
+    }
+
+    #myChart {
+        height: 170px !important;
+    }
+
+    .myChart {
+        height: 170px !important;
+    }
+
+    .fare-boxes {
+        position: relative;
+        top: 0px;
+        height: 80px;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:413px) {
+    html {
+        font-size: 16px;
+    }
+
+    #myChart {
+        height: 200px !important;
+    }
+
+    .myChart {
+        height: 220px !important;
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:413px) {
+    html {
+        font-size: 16px;
+    }
+
+    #myChart {
+        height: 200px !important;
+    }
+
+    .myChart {
+        height: 220px !important;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .topbar,
+    .page-wrapper {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #maintenance {
+        display: none;
+    }
+}
+
+@media (min-height: 670px){
+    .sold-product-history .content{
+        display: block !important;
+    }
+}
